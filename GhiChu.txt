@@ -1,0 +1,6 @@
+﻿Mục tiêu của ta là xây dựng một mô hình ngôn ngữ sử dụng RNN. Giả sử ta có một câu với m m từ, thì một mô hình ngôn ngữ cho phép ta dự đoán được xác xuất của một câu (trong tập dữ liệu)
+Dữ liệu sử dụng: 15,0000 bình luận trên Reddit từ cơ sở dữ liệu BigQuery của Google
+https://bigquery.cloud.google.com/table/fh-bigquery:reddit_comments.2005?pli=1&tab=schema
+Dữ liệu dùng training: được lấy từ "data/reddit-comments-2015-08.csv" là: 15000
+Số epoch sử dụng là: 10
+Actual loss sau khi hoàn thành 10 eppoch là: 5.710718
