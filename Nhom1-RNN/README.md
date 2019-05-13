@@ -4,5 +4,6 @@ Dữ liệu sử dụng: 15,0000 bình luận trên Reddit từ cơ sở dữ li
 https://bigquery.cloud.google.com/table/fh-bigquery:reddit_comments.2005?pli=1&tab=schema
 
 Dữ liệu dùng training: được lấy từ "data/reddit-comments-2015-08.csv" là: 15000
+
 Số epoch sử dụng là: 10
 Actual loss sau khi hoàn thành 10 eppoch là: 5.710718
